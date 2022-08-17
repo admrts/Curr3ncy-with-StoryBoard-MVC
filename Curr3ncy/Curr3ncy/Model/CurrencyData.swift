@@ -11,12 +11,9 @@ struct CurrencyData: Codable {
     
     let query: Query
     let result: Double
-   
     
-    struct Query: Codable {
-        let from: String
-        let to: String
-    }
-   
-    
+}
+struct Query: Codable {
+    let from: String
+    let to: String
 }
